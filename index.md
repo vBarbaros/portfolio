@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Victor Barbarosh | Full-Stack Developer & AI/ML Specialist
+# Full-Stack Developer & AI/ML Specialist
 
 Welcome to my portfolio! This site unifies my diverse writing contributions across platforms and showcases my technical expertise as a Full-Stack Developer and AI/ML specialist. Here, you can explore my works on **Baeldung**, **Substack**, and **Medium**, each reflecting my commitment to solving complex problems, writing clean code, and sharing knowledge with the tech community.
 
