@@ -4,7 +4,13 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+[Link to Baeldung posts - another page](posts-baeldung/another-page.html).
+
+
+[Link to Substack posts - another page](posts-substack/another-page.html).
+
+
+[Link to Medium posts - another page](posts-medium/another-page.html).
 
 There should be whitespace between paragraphs.
 

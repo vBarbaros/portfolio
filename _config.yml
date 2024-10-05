@@ -1,5 +1,11 @@
-title: Architect theme
-description: Architect is a theme for GitHub Pages.
+title: Victor Barbarosh Portfolio
+description: This site unifies my writings across various platforms - Baeldung, Substack, and Medium.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-architect
+
+#  On Medium, I write haikus and explore topics in Full Stack Development and AI.
+#  As a Baeldung contributor, I focus on Java Core and Spring Framework.
+#  On Substack, I delve into Data Structures, Algorithms, and other topics from my full stack development work.
+#
+#  Explore to find a mix of technical insights and creative writing!
