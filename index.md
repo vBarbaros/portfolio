@@ -2,128 +2,42 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Victor Barbarosh | Full-Stack Developer & AI/ML Specialist
 
-[Link to Baeldung posts - another page](posts-baeldung/another-page.html).
+Welcome to my portfolio! This site unifies my diverse writing contributions across platforms and showcases my technical expertise as a Full-Stack Developer and AI/ML specialist. Here, you can explore my works on **Baeldung**, **Substack**, and **Medium**, each reflecting my commitment to solving complex problems, writing clean code, and sharing knowledge with the tech community.
 
+## Expertise Overview
 
-[Link to Substack posts - another page](posts-substack/another-page.html).
+I am a Full-Stack Developer experienced in **Java**, **Spring Framework**, **React**, and **PostgreSQL**. Additionally, I hold a Master's degree specializing in **AI/ML** with a focus on **Reinforcement Learning**. I am passionate about software architecture, problem-solving, and exploring cutting-edge technologies.
 
+### Writing Contributions
 
-[Link to Medium posts - another page](posts-medium/another-page.html).
+As a contributor to leading platforms, my writings focus on a range of technical topics and creative explorations:
 
-There should be whitespace between paragraphs.
+### Baeldung
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+On **Baeldung**, I regularly write about **Java Core** and **Spring Framework** topics. My articles aim to simplify complex concepts for developers and provide practical insights into solving real-world problems with Java and Spring.
 
-# Header 1
+[Link to Baeldung posts - another page](posts-baeldung/another-page.html)
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+### Substack
 
-## Header 2
+On **Substack**, I write in-depth articles on **Data Structures**, **Algorithms**, and other topics that arise in my Full-Stack Software Development practice. My goal is to help developers improve their algorithmic thinking and problem-solving skills.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+[Link to Substack posts - another page](posts-substack/another-page.html)
 
-### Header 3
+### Medium
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+On **Medium**, I explore a different creative side through **haikus** on various topics. Alongside this, I write articles related to **Full-Stack Software Development** and **AI/ML**, merging technology with creative expression.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+[Link to Medium posts - another page](posts-medium/another-page.html)
 
-#### Header 4
+## Technical Skills
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
+```yaml
+- Full Stack Development: React, Spring Boot, PostgreSQL
+- Java Core, Spring Framework
+- AI/ML: Reinforcement Learning, Neural Networks
+- REST APIs, Microservices
+- Software Architecture & Design Patterns
 ```
