@@ -2,42 +2,56 @@
 layout: default
 ---
 
-# Full-Stack Developer & AI/ML Specialist
+# Victor Barbarosh | Full-Stack Developer & DevOps Specialist
 
-Welcome to my portfolio! This site unifies my diverse writing contributions across platforms and showcases my technical expertise as a Full-Stack Developer and AI/ML specialist. Here, you can explore my works on **Baeldung**, **Substack**, and **Medium**, each reflecting my commitment to solving complex problems, writing clean code, and sharing knowledge with the tech community.
+Welcome to my portfolio! I am a seasoned Full-Stack Software Developer and DevOps specialist currently working at **Ericsson**, with over 5 years of experience in leading and supporting automation pipeline enhancements and full-stack development. I hold a **Master of Science** (M.Sc.) in Computer Science from **McGill University**, specializing in intelligent systems and machine learning.
 
-## Expertise Overview
+## Expertise
 
-I am a Full-Stack Developer experienced in **Java**, **Spring Framework**, **React**, and **PostgreSQL**. Additionally, I hold a Master's degree specializing in **AI/ML** with a focus on **Reinforcement Learning**. I am passionate about software architecture, problem-solving, and exploring cutting-edge technologies.
+With a strong background in **Spring Boot**, **Angular**, **PostgreSQL**, **Docker**, and automation, I have successfully led the design, implementation, and deployment of complex systems. I am passionate about building scalable software, optimizing processes, and driving end-to-end development.
 
-### Writing Contributions
+### Technical Skills
 
-As a contributor to leading platforms, my writings focus on a range of technical topics and creative explorations:
+- Full Stack Development: Angular, Spring Boot, MySQL, PostgreSQL
+- DevOps: Docker, Automation Pipelines
+- Backend Integration: SOAP, REST APIs
+- Cross-functional Team Leadership
 
-### Baeldung
+## Writing Contributions
 
-On **Baeldung**, I regularly write about **Java Core** and **Spring Framework** topics. My articles aim to simplify complex concepts for developers and provide practical insights into solving real-world problems with Java and Spring.
+I enjoy sharing knowledge and technical insights through various platforms. My writing focuses on **Java Core**, **Spring Framework**, **Data Structures and Algorithms**, and creative content such as **haikus**.
 
-[Link to Baeldung posts - another page](posts-baeldung/another-page.html)
+- [Baeldung Articles](posts-baeldung/another-page.html) - In-depth articles on Java Core and Spring Framework.
+- [Substack Articles](posts-substack/another-page.html) - Focused on Data Structures, Algorithms, and Full-Stack Development.
+- [Medium Articles](posts-medium/another-page.html) - Creative writings, haikus, and technical content related to software development and AI.
 
-### Substack
+## Professional Experience
 
-On **Substack**, I write in-depth articles on **Data Structures**, **Algorithms**, and other topics that arise in my Full-Stack Software Development practice. My goal is to help developers improve their algorithmic thinking and problem-solving skills.
+### Senior Full Stack & DevOps Developer
+*Ericsson*  
+**October 2022 – Present**  
+Leading full-stack development projects with a focus on SpringBoot, Angular, and PostgreSQL. Spearheading automation pipeline enhancements and driving system integrations while ensuring performance and reliability.
 
-[Link to Substack posts - another page](posts-substack/another-page.html)
+### Full Stack Software Developer
+*Ericsson*  
+**May 2019 – October 2022**  
+Developed and deployed critical features using PHP, Angular, and SpringBoot, significantly boosting automation processing. Collaborated with cross-functional teams to integrate REST and SOAP APIs for service interoperability.
 
-### Medium
+### Software Engineering Intern
+*McGill University - Center for Intelligent Machines*  
+**May 2017 – September 2017**  
+Worked on advanced software engineering projects focused on intelligent systems and machine learning techniques.
 
-On **Medium**, I explore a different creative side through **haikus** on various topics. Alongside this, I write articles related to **Full-Stack Software Development** and **AI/ML**, merging technology with creative expression.
+## Education
 
-[Link to Medium posts - another page](posts-medium/another-page.html)
+- **Master of Science (M.Sc.)**  
+  *Computer Science - McGill University*  
+  *January 2021 – December 2024*
 
-## Technical Skills
+- **Bachelor of Science (B.Sc.)**  
+  *Honours Software Engineering - McGill University*  
+  *2015 – 2019*
 
-```yaml
-- Full Stack Development: React, Spring Boot, PostgreSQL
-- Java Core, Spring Framework
-- AI/ML: Reinforcement Learning, Neural Networks
-- REST APIs, Microservices
-- Software Architecture & Design Patterns
-```
+---
+
+Thank you for visiting my portfolio. Feel free to explore my work and get in touch through [LinkedIn](https://www.linkedin.com/in/victor-barbarosh-56a03743) or [GitHub](https://github.com/vBarbaros) for collaboration and professional inquiries.

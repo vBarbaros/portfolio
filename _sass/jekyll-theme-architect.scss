@@ -19,6 +19,7 @@ p {
 a {
   color: #2879d0;
 }
+
 a:hover {
   color: #2268b2;
 }
@@ -92,7 +93,7 @@ aside#sidebar p.repo-owner a {
   margin-bottom: 40px;
 }
 
-a.button {
+a.button, a.medium-button, a.baeldung-button, a.substack-button  {
   width: 134px;
   height: 58px;
   padding-top: 22px;
@@ -102,16 +103,20 @@ a.button {
   line-height: 1.2;
   color: #fff;
 }
-a.button small {
+
+a.button small, a.medium-button small, a.baeldung-button small, a.substack-button small {
   display: block;
   font-size: 11px;
 }
+
 header a.button {
   position: absolute;
   top: 0;
   right: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
+
+
 aside a.button {
   display: block;
   width: 138px;
@@ -119,6 +124,33 @@ aside a.button {
   margin-bottom: 20px;
   font-size: 21px;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
+}
+
+aside a.medium-button {
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: transparent url(../images/medium.png) 0 0 no-repeat;
+}
+
+aside a.baeldung-button {
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: transparent url(../images/spring-boot.png) 0 0 no-repeat;
+}
+
+aside a.substack-button {
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: transparent url(../images/substack.png) 0 0 no-repeat;
 }
 
 code, pre {
@@ -141,6 +173,7 @@ pre {
   background: #fff;
   border: solid 1px #f2f2f2;
 }
+
 pre code {
   padding: 0;
   color: #2879d0;
@@ -213,6 +246,7 @@ form {
   color: #474747;
   text-indent: 4px;
 }
+
 #main-content h2:before {
   padding-right: 0.3em;
   margin-left: -1.5em;
@@ -260,6 +294,7 @@ h4:before {
   color: #474747;
   text-indent: 3px;
 }
+
 h5:before {
   padding-right: 0.3em;
   margin-left: -3.2em;
@@ -274,6 +309,7 @@ h5:before {
   color: #474747;
   text-indent: 3px;
 }
+
 h6:before {
   padding-right: 0.3em;
   margin-left: -3.7em;
@@ -328,6 +364,7 @@ footer {
 footer a {
   color: #666;
 }
+
 footer a:hover {
   color: #444;
 }
@@ -341,15 +378,24 @@ footer a:hover {
   content: '.';
 }
 
-.clearfix {display: inline-block;}
-* html .clearfix {height: 1%;}
-.clearfix {display: block;}
+.clearfix {
+  display: inline-block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
 
 /* #Media Queries
 ================================================== */
 
 /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) { }
+@media only screen and (max-width: 959px) {
+}
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -400,7 +446,7 @@ footer a:hover {
   header h2 {
     font-size: 24px;
   }
-  header a.button {
+  header a.button, header a.medium-button, header a.baeldung-button, header a.substack-button {
     position: relative;
     display: inline-block;
     width: auto;
@@ -417,10 +463,13 @@ footer a:hover {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
   }
-  header a.button small {
+
+  header a.button small, header a.medium-button small,
+  header a.baeldung-button small, header a.substack-button small {
     display: inline;
     font-size: 13px;
   }
+
   #main-content,
   aside#sidebar {
     float: none;
@@ -433,9 +482,11 @@ footer a:hover {
     background-image: none;
     border-top: solid 1px #ddd;
   }
-  aside#sidebar a.button {
+  aside#sidebar a.button, aside#sidebar a.medium-button,
+  aside#sidebar a.baeldung-button, aside#sidebar a.substack-button {
     display: none;
   }
+
   #main-content h1:before,
   #main-content h2:before,
   #main-content h3:before,
@@ -449,7 +500,9 @@ footer a:hover {
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) { }
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) { }
+@media only screen and (max-width: 479px) {
+}

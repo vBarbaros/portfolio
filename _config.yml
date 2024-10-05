@@ -1,8 +1,16 @@
 title: Victor Barbarosh Portfolio
 description: This site unifies my writings across various platforms - Baeldung, Substack, and Medium.
-show_downloads: true
+show_downloads: false
+show_platforms: true
 google_analytics:
 theme: jekyll-theme-architect
+github:
+  zip_url: http://example.com/download.zip
+  another_url: another value
+platforms:
+  baeldung: https://www.baeldung.com/editor/victorbarbarosh
+  substack: https://substack.com/@theanatomyofanalgorithm
+  medium: https://medium.com/@geeks.sw.gig
 
 #  On Medium, I write haikus and explore topics in Full Stack Development and AI.
 #  As a Baeldung contributor, I focus on Java Core and Spring Framework.

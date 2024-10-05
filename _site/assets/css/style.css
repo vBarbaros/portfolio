@@ -745,7 +745,7 @@ aside#sidebar p.repo-owner a {
   margin-bottom: 40px;
 }
 
-a.button {
+a.button, a.medium-button, a.baeldung-button, a.substack-button {
   width: 134px;
   height: 58px;
   padding-top: 22px;
@@ -756,7 +756,7 @@ a.button {
   color: #fff;
 }
 
-a.button small {
+a.button small, a.medium-button small, a.baeldung-button small, a.substack-button small {
   display: block;
   font-size: 11px;
 }
@@ -775,6 +775,33 @@ aside a.button {
   margin-bottom: 20px;
   font-size: 21px;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
+}
+
+aside a.medium-button {
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: transparent url(../images/medium.png) 0 0 no-repeat;
+}
+
+aside a.baeldung-button {
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: transparent url(../images/spring-boot.png) 0 0 no-repeat;
+}
+
+aside a.substack-button {
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: transparent url(../images/substack.png) 0 0 no-repeat;
 }
 
 code, pre {
@@ -1060,7 +1087,7 @@ footer a:hover {
   header h2 {
     font-size: 24px;
   }
-  header a.button {
+  header a.button, header a.medium-button, header a.baeldung-button, header a.substack-button {
     position: relative;
     display: inline-block;
     width: auto;
@@ -1077,7 +1104,8 @@ footer a:hover {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
   }
-  header a.button small {
+  header a.button small, header a.medium-button small,
+  header a.baeldung-button small, header a.substack-button small {
     display: inline;
     font-size: 13px;
   }
@@ -1093,7 +1121,8 @@ footer a:hover {
     background-image: none;
     border-top: solid 1px #ddd;
   }
-  aside#sidebar a.button {
+  aside#sidebar a.button, aside#sidebar a.medium-button,
+  aside#sidebar a.baeldung-button, aside#sidebar a.substack-button {
     display: none;
   }
   #main-content h1:before,
