@@ -2,7 +2,7 @@ title: Victor Barbarosh Portfolio
 description: This site unifies my writings across various platforms - Baeldung, Substack, and Medium.
 show_downloads: false
 show_platforms: true
-google_analytics:
+google_analytics: GTM-MSPCKDWK
 theme: jekyll-theme-architect
 github:
   zip_url: http://example.com/download.zip
