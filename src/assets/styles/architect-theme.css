@@ -1,28 +1,33 @@
-/* Architect Theme Styles */
+/* Architect Theme Styles - Complete Implementation */
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
-  color: var(--text-color);
-  background: var(--background-color);
+  color: #373737;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
 }
 
+/* Header Styles */
 .header {
-  background: var(--header-bg);
+  background: linear-gradient(#373737, #2d2d2d);
   border-bottom: solid 1px #275da1;
   padding: 35px 0;
   color: #fff;
+  text-align: center;
 }
 
 .header .inner {
   max-width: 650px;
   margin: 0 auto;
-  text-align: center;
+  padding: 0 20px;
 }
 
 .header h1 {
@@ -30,6 +35,8 @@ body {
   font-size: 48px;
   font-weight: bold;
   letter-spacing: -1px;
+  color: #fff;
+  text-shadow: #111 0px 0px 10px;
 }
 
 .header h2 {
@@ -37,14 +44,75 @@ body {
   font-size: 24px;
   font-weight: normal;
   color: #9ddcff;
+  text-shadow: #111 0px 0px 10px;
 }
 
+/* Main Content */
 .main-content {
   max-width: 650px;
   margin: 0 auto;
   padding: 20px;
+  background: #f2f2f2;
 }
 
+.main-content .inner {
+  background: #fff;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.09), 0 0 0 1px rgba(255,255,255,0.1);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #222222;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  letter-spacing: -1px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 21px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  margin: 10px 0 15px 0;
+}
+
+/* Links */
+a {
+  color: #2879d0;
+  text-shadow: #b1b1b1 0px 1px 0px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2268b2;
+  text-decoration: underline;
+}
+
+/* Platform Grid */
 .platform-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -58,9 +126,103 @@ body {
   border-radius: 3px;
   padding: 20px;
   text-align: center;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.09);
 }
 
-@media (max-width: 768px) {
+.platform-card h3 {
+  margin: 10px 0;
+  color: #222;
+}
+
+.platform-card p {
+  color: #666;
+  margin: 10px 0;
+}
+
+/* Buttons */
+.button, .btn {
+  display: inline-block;
+  background: linear-gradient(#fceec1, #eedc94);
+  border: 1px solid #d0a770;
+  border-radius: 2px;
+  padding: 8px 16px;
+  margin: 10px 0;
+  color: #8f7a56;
+  font-weight: bold;
+  text-shadow: #c9bb93 0px 1px 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover, .btn:hover {
+  background: linear-gradient(#f6e6a8, #e5d482);
+  color: #7c6d42;
+  text-decoration: none;
+}
+
+/* Code blocks */
+pre, code {
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+pre {
+  padding: 20px;
+  background: #303030;
+  color: #f2f2f2;
+  text-shadow: none;
+  overflow: auto;
+  border-radius: 2px;
+  margin: 20px 0;
+}
+
+code {
+  padding: 3px;
+  background: #f2f2f2;
+  border: solid 1px #ddd;
+  border-radius: 2px;
+}
+
+/* Blockquotes */
+blockquote {
+  color: #666;
+  margin-bottom: 20px;
+  padding: 0 0 0 20px;
+  border-left: 3px solid #bbb;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+th {
+  text-align: left;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+td {
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  
   .header h1 {
     font-size: 32px;
   }
@@ -72,4 +234,74 @@ body {
   .platform-grid {
     grid-template-columns: 1fr;
   }
+  
+  .main-content {
+    padding: 10px;
+  }
+  
+  .header .inner {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header h1 {
+    font-size: 28px;
+  }
+  
+  .header h2 {
+    font-size: 16px;
+  }
+}
+
+/* Layout specific styles */
+.layout {
+  min-height: 100vh;
+  background: #f2f2f2;
+}
+
+/* Experience cards */
+.experience-card, .job {
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  border-radius: 3px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.09);
+}
+
+.experience-card h3, .job h3 {
+  margin-top: 0;
+  color: #222;
+}
+
+.experience-card h4, .job h4 {
+  color: #666;
+  margin: 5px 0;
+}
+
+.experience-card .period, .job .period {
+  font-style: italic;
+  color: #888;
+  margin: 5px 0 10px 0;
+}
+
+/* Navigation styles if needed */
+.navigation {
+  margin-top: 20px;
+}
+
+.nav-link {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 8px 16px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 3px;
+  color: #9ddcff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
 }

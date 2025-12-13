@@ -14,8 +14,7 @@ const Medium = () => {
       <p>Creative writings, haikus, and technical content related to software development and AI.</p>
       
       <div style={{ marginTop: '20px' }}>
-        <a href="https://medium.com/@geeks.sw.gig" target="_blank" rel="noopener noreferrer"
-           style={{ display: 'inline-block', padding: '10px 20px', background: '#2879d0', color: 'white', borderRadius: '3px', textDecoration: 'none' }}>
+        <a href="https://medium.com/@geeks.sw.gig" target="_blank" rel="noopener noreferrer" className="button">
           Visit Medium Profile
         </a>
       </div>

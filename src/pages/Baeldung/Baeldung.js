@@ -14,8 +14,7 @@ const Baeldung = () => {
       <p>In-depth articles on Java Core and Spring Framework.</p>
       
       <div style={{ marginTop: '20px' }}>
-        <a href="https://www.baeldung.com/editor/victorbarbarosh" target="_blank" rel="noopener noreferrer" 
-           style={{ display: 'inline-block', padding: '10px 20px', background: '#2879d0', color: 'white', borderRadius: '3px', textDecoration: 'none' }}>
+        <a href="https://www.baeldung.com/editor/victorbarbarosh" target="_blank" rel="noopener noreferrer" className="button">
           Visit Baeldung Profile
         </a>
       </div>

@@ -29,11 +29,11 @@ const Home = () => {
       <section style={{ marginBottom: '40px' }}>
         <h2>Professional Experience</h2>
         {experience.map((job, index) => (
-          <div key={index} style={{ marginBottom: '20px', padding: '15px', background: '#fff', border: '1px solid #d8d8d8', borderRadius: '3px' }}>
-            <h3 style={{ margin: '0 0 5px 0' }}>{job.title}</h3>
-            <h4 style={{ margin: '0 0 5px 0', color: '#666' }}>{job.company}</h4>
-            <p style={{ margin: '0 0 10px 0', fontStyle: 'italic', color: '#888' }}>{job.period}</p>
-            <p style={{ margin: '0' }}>{job.description}</p>
+          <div key={index} className="job">
+            <h3>{job.title}</h3>
+            <h4>{job.company}</h4>
+            <p className="period">{job.period}</p>
+            <p>{job.description}</p>
           </div>
         ))}
       </section>
