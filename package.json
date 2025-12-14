@@ -10,9 +10,6 @@
     "react-helmet-async": "^2.0.5",
     "react-scripts": "5.0.1"
   },
-  "devDependencies": {
-    "gh-pages": "^6.2.0"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "BUILD_PATH='./docs' react-scripts build",
