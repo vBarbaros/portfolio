@@ -1,8 +1,28 @@
 :root {
-  --primary-color: #2e7bcf;
-  --secondary-color: #151515;
-  --text-color: #373737;
-  --background-color: #f2f2f2;
-  --header-bg: linear-gradient(#373737, #2d2d2d);
-  --font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --text-color: #2c3e50;
+  --text-light: #7f8c8d;
+  --background-color: #ecf0f1;
+  --card-background: #ffffff;
+  --border-color: #ecf0f1;
+  --success-color: #27ae60;
+  --font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
+  /* Shadows */
+  --card-shadow: 0 0.125em 0.625em rgba(0, 0, 0, 0.1);
+  --hover-shadow: 0 0.25em 0.9375em rgba(0, 0, 0, 0.1);
+  
+  /* Spacing */
+  --spacing-xs: 0.3125em;
+  --spacing-sm: 0.625em;
+  --spacing-md: 1.25em;
+  --spacing-lg: 1.875em;
+  --spacing-xl: 2.5em;
+  
+  /* Border radius */
+  --border-radius: 0.5em;
+  --border-radius-sm: 0.375em;
+  --border-radius-lg: 0.75em;
 }

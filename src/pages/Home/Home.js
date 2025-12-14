@@ -1,9 +1,22 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import PlatformCard from '../../components/PlatformCard/PlatformCard';
-import { personalInfo, platforms, experience } from '../../data/content';
+import { personalInfo, experience } from '../../data/content';
+import './Home.css';
 
 const Home = () => {
+  const featuredProjects = [
+    {
+      title: 'Spring Boot Microservices',
+      description: 'Scalable microservices architecture with Spring Boot and Docker',
+      tech: ['Java', 'Spring Boot', 'Docker', 'AWS']
+    },
+    {
+      title: 'React Dashboard',
+      description: 'Modern admin dashboard with real-time data visualization',
+      tech: ['React', 'TypeScript', 'D3.js', 'WebSocket']
+    }
+  ];
+
   return (
     <>
       <Helmet>
@@ -11,35 +24,68 @@ const Home = () => {
         <meta name="description" content={personalInfo.description} />
       </Helmet>
       
-      <section style={{ marginBottom: '40px' }}>
-        <h1>Full-Stack Developer & DevOps</h1>
-        <p>{personalInfo.description}</p>
+      <section className="welcome-section">
+        <h1>Welcome to My Portfolio</h1>
+        <p className="intro-text">{personalInfo.description}</p>
         <p>I hold a {personalInfo.education}, specializing in intelligent systems and machine learning.</p>
-      </section>
-
-      <section style={{ marginBottom: '40px' }}>
-        <h2>Writing Contributions</h2>
-        <div className="platform-grid">
-          <PlatformCard platform={platforms.baeldung} linkTo="/baeldung" />
-          <PlatformCard platform={platforms.medium} linkTo="/medium" />
-          <PlatformCard platform={platforms.substack} linkTo="/substack" />
+        
+        <div className="highlights">
+          <div className="highlight-item">
+            <span className="highlight-number">5+</span>
+            <span className="highlight-label">Years Experience</span>
+          </div>
+          <div className="highlight-item">
+            <span className="highlight-number">50+</span>
+            <span className="highlight-label">Articles Published</span>
+          </div>
+          <div className="highlight-item">
+            <span className="highlight-number">20+</span>
+            <span className="highlight-label">Projects Completed</span>
+          </div>
         </div>
       </section>
 
-      <section style={{ marginBottom: '40px' }}>
-        <h2>Professional Experience</h2>
-        {experience.map((job, index) => (
-          <div key={index} className="job">
-            <h3>{job.title}</h3>
-            <h4>{job.company}</h4>
-            <p className="period">{job.period}</p>
-            <p>{job.description}</p>
-          </div>
-        ))}
+      <section className="experience-section">
+        <h2>Professional Journey</h2>
+        <div className="experience-timeline">
+          {experience.map((job, index) => (
+            <div key={index} className="timeline-item">
+              <div className="timeline-marker"></div>
+              <div className="timeline-content">
+                <h3>{job.title}</h3>
+                <h4>{job.company}</h4>
+                <span className="period">{job.period}</span>
+                <p>{job.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
 
-      <section>
-        <p>Connect with me on <a href={personalInfo.linkedin}>LinkedIn</a> or <a href={personalInfo.github}>GitHub</a></p>
+      <section className="projects-section">
+        <h2>Featured Projects</h2>
+        <div className="projects-grid">
+          {featuredProjects.map((project, index) => (
+            <div key={index} className="project-card">
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
+              <div className="project-tech">
+                {project.tech.map((tech, techIndex) => (
+                  <span key={techIndex} className="tech-badge">{tech}</span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="cta-section">
+        <h2>Let's Work Together</h2>
+        <p>I'm always interested in new opportunities and challenging projects.</p>
+        <div className="cta-buttons">
+          <button className="cta-primary">Get In Touch</button>
+          <button className="cta-secondary">View Resume</button>
+        </div>
       </section>
     </>
   );

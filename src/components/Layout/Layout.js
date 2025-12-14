@@ -1,15 +1,16 @@
 import React from 'react';
-import Header from '../Header/Header';
+import Sidebar from './Sidebar';
+import QuickNav from './QuickNav';
+import './Layout.css';
 
 const Layout = ({ children }) => {
   return (
-    <div className="layout">
-      <Header />
-      <div className="main-content">
-        <div className="inner">
-          {children}
-        </div>
-      </div>
+    <div className="portfolio-layout">
+      <Sidebar />
+      <main className="main-content">
+        {children}
+      </main>
+      <QuickNav />
     </div>
   );
 };

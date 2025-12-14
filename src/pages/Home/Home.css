@@ -1,0 +1,254 @@
+.welcome-section {
+  margin-bottom: 3.125em;
+}
+
+.welcome-section h1 {
+  color: #2c3e50;
+  font-size: 2.5em;
+  margin-bottom: 1.25em;
+  font-weight: 600;
+}
+
+.intro-text {
+  font-size: 1.2em;
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 1.5625em;
+}
+
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9.375em, 1fr));
+  gap: 1.25em;
+  margin-top: 1.875em;
+}
+
+.highlight-item {
+  text-align: center;
+  padding: 1.25em;
+  background: #f8f9fa;
+  border-radius: 0.5em;
+  border-left: 0.25em solid #3498db;
+}
+
+.highlight-number {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  color: #3498db;
+  margin-bottom: 0.3125em;
+}
+
+.highlight-label {
+  font-size: 0.9em;
+  color: #7f8c8d;
+  text-transform: uppercase;
+  letter-spacing: 0.03125em;
+}
+
+.experience-section {
+  margin-bottom: 3.125em;
+}
+
+.experience-section h2 {
+  color: #2c3e50;
+  margin-bottom: 1.875em;
+  font-size: 1.8em;
+}
+
+.experience-timeline {
+  position: relative;
+  padding-left: 1.875em;
+}
+
+.experience-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0.9375em;
+  top: 0;
+  bottom: 0;
+  width: 0.125em;
+  background: #ecf0f1;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2.5em;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -2.3125em;
+  top: 0.5em;
+  width: 0.75em;
+  height: 0.75em;
+  background: #3498db;
+  border-radius: 50%;
+  border: 0.1875em solid #ffffff;
+  box-shadow: 0 0 0 0.1875em #ecf0f1;
+}
+
+.timeline-content h3 {
+  color: #2c3e50;
+  margin: 0 0 0.3125em;
+  font-size: 1.3em;
+}
+
+.timeline-content h4 {
+  color: #3498db;
+  margin: 0 0 0.5em;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.period {
+  display: inline-block;
+  background: #ecf0f1;
+  color: #7f8c8d;
+  padding: 0.25em 0.75em;
+  border-radius: 0.9375em;
+  font-size: 0.85em;
+  margin-bottom: 0.9375em;
+}
+
+.timeline-content p {
+  color: #34495e;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.projects-section {
+  margin-bottom: 3.125em;
+}
+
+.projects-section h2 {
+  color: #2c3e50;
+  margin-bottom: 1.875em;
+  font-size: 1.8em;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75em, 1fr));
+  gap: 1.5625em;
+}
+
+.project-card {
+  background: #f8f9fa;
+  border-radius: 0.5em;
+  padding: 1.5625em;
+  border-left: 0.25em solid #e74c3c;
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-0.125em);
+}
+
+.project-card h3 {
+  color: #2c3e50;
+  margin: 0 0 0.9375em;
+  font-size: 1.2em;
+}
+
+.project-card p {
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 1.25em;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.tech-badge {
+  background: #3498db;
+  color: white;
+  padding: 0.25em 0.625em;
+  border-radius: 0.75em;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.cta-section {
+  text-align: center;
+  padding: 2.5em 0;
+  background: #f8f9fa;
+  border-radius: 0.5em;
+  margin: 2.5em -1.875em -1.875em;
+}
+
+.cta-section h2 {
+  color: #2c3e50;
+  margin-bottom: 0.9375em;
+  font-size: 1.8em;
+}
+
+.cta-section p {
+  color: #7f8c8d;
+  margin-bottom: 1.875em;
+  font-size: 1.1em;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 0.9375em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta-primary,
+.cta-secondary {
+  padding: 0.75em 1.875em;
+  border-radius: 0.375em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+.cta-primary {
+  background: #3498db;
+  color: white;
+}
+
+.cta-primary:hover {
+  background: #2980b9;
+}
+
+.cta-secondary {
+  background: transparent;
+  color: #3498db;
+  border: 0.125em solid #3498db;
+}
+
+.cta-secondary:hover {
+  background: #3498db;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .welcome-section h1 {
+    font-size: 2em;
+  }
+  
+  .highlights {
+    grid-template-columns: 1fr;
+  }
+  
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cta-primary,
+  .cta-secondary {
+    width: 12.5em;
+  }
+}
