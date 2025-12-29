@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { getPlatformCards } from '../../utils/profileUtils';
 import './Sidebar.css';
 
 const Sidebar = () => {
   const location = useLocation();
+  const platformCards = getPlatformCards();
 
   const skills = [
     { name: 'System Design', level: 88 },
@@ -15,13 +17,6 @@ const Sidebar = () => {
     { name: 'Secure Coding/Security by Design ', level: 85 },
     // { name: 'AWS/Cloud', level: 85 },
 
-  ];
-
-  const navItems = [
-    { path: '/', label: 'Home', icon: '🏠' },
-    { path: '/medium', label: 'Medium', icon: '✍️' },
-    { path: '/baeldung', label: 'Baeldung', icon: '📝' },
-    // { path: '/substack', label: 'Substack', icon: '📰' }
   ];
 
   return (
@@ -53,15 +48,17 @@ const Sidebar = () => {
         ))}
       </div>
 
-      <nav className="sidebar-nav">
-        {navItems.map((item, index) => (
+      <nav className="sidebar-nav">        
+        {platformCards.map((platform, index) => (
           <Link
-            key={index}
-            to={item.path}
-            className={`nav-item ${location.pathname === item.path ? 'active' : ''}`}
+            key={platform.name}
+            to={platform.path}
+            className={`platform-nav-item ${location.pathname === platform.path ? 'active' : ''}`}
           >
-            <span className="nav-icon">{item.icon}</span>
-            {item.label}
+            <div className="platform-nav-container">
+              <img src={platform.image} alt={platform.name} className="platform-nav-image" />
+              <span className="platform-name">{platform.name}</span>
+            </div>
           </Link>
         ))}
       </nav>

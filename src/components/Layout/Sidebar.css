@@ -130,8 +130,63 @@
   color: white;
 }
 
+.platform-nav-item {
+  display: block;
+  padding: 0;
+  text-decoration: none;
+  color: #2c3e50;
+  border-radius: 0.25em;
+  margin-bottom: 0.5em;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+.platform-nav-item:hover {
+  transform: translateY(-0.125em);
+}
+
+.platform-nav-item.active {
+  box-shadow: 0 0 0 2px #3498db;
+}
+
+.platform-nav-container {
+  position: relative;
+}
+
+.platform-name {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  font-size: 0.875em;
+  font-weight: 600;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  z-index: 1;
+}
+
+.platform-nav-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.platform-nav-item[href="/"] .platform-nav-image {
+  width: auto;
+  height: 3em;
+  object-fit: cover;
+}
+
 .nav-icon {
   font-size: 1.1em;
+}
+
+.nav-image {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  object-fit: cover;
 }
 
 .contact-section {
