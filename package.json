@@ -6,9 +6,11 @@
   "dependencies": {
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "react-router-dom": "^7.10.1",
     "react-helmet-async": "^2.0.5",
-    "react-scripts": "5.0.1"
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.10.1",
+    "react-scripts": "5.0.1",
+    "react-syntax-highlighter": "^16.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

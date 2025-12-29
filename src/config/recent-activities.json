@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "activity": "Published new article on Medium about AI in development",
+    "timestamp": "2024-04-10T10:30:00Z"
+  },
+  {
+    "id": "2",
+    "activity": "Updated Spring Boot testing guide on Baeldung",
+    "timestamp": "2024-03-15T14:20:00Z"
+  },
+  {
+    "id": "3",
+    "activity": "Released new algorithm deep-dive on Substack",
+    "timestamp": "2024-05-05T09:15:00Z"
+  },
+  {
+    "id": "4",
+    "activity": "Completed microservices platform project",
+    "timestamp": "2024-06-15T16:45:00Z"
+  }
+]

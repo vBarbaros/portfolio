@@ -1,17 +1,17 @@
 .portfolio-layout {
   display: grid;
-  grid-template-columns: 15.625em 1fr 17.5em;
+  grid-template-columns: 17.5em 1fr 17.5em;
   grid-template-areas: "sidebar main quicknav";
-  height: 100vh;
-  gap: 1.25em;
-  padding: 1.25em;
+  min-height: 100vh;
+  gap: 0em;
+  padding: 1em;
   background-color: #ecf0f1;
-  overflow: hidden;
+  align-items: start;
 }
 
 .sidebar {
   grid-area: sidebar;
-  overflow: hidden;
+  align-self: start;
 }
 
 .main-content {
@@ -20,22 +20,23 @@
   border-radius: 0.5em;
   box-shadow: 0 0.125em 0.625em rgba(0, 0, 0, 0.1);
   padding: 1.875em;
-  overflow-y: auto;
-  height: 100%;
+  max-width: 1200px;
+  justify-self: center;
+  align-self: start;
 }
 
 .quick-nav {
   grid-area: quicknav;
-  overflow: hidden;
+  align-self: start;
 }
 
 @media (max-width: 1199px) {
   .portfolio-layout {
     grid-template-columns: 1fr;
-    grid-template-areas: 
+    grid-template-areas:
       "main";
   }
-  
+
   .sidebar,
   .quick-nav {
     display: none;
@@ -47,7 +48,7 @@
     padding: 0.625em;
     gap: 0.625em;
   }
-  
+
   .main-content {
     padding: 1.25em;
   }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { getPlatformCards } from '../../utils/profileUtils';
+import recentActivities from '../../config/recent-activities.json';
 import './QuickNav.css';
 
 const QuickNav = () => {
@@ -18,19 +19,33 @@ const QuickNav = () => {
 
   return (
     <aside className="quick-nav">
-      <div className="platform-cards">
-        <h3>Publications</h3>
-        {platformCards.map((card, index) => (
-          <Link key={index} to={card.path} className="platform-card" title={`${card.name} - ${card.description}`}>
-            <div className="platform-image-container">
-              <img src={card.image} alt={card.name} className="platform-image" />
-              <div className="platform-overlay">
-                <span className="platform-count">{card.count}</span>
-              </div>
-            </div>
-          </Link>
-        ))}
-      </div>
+        <div className="activity-feed">
+            <h3>Recent Activity</h3>
+            {recentActivities.map((activity) => (
+                <div key={activity.id} className="activity-item">
+                    <span className="activity-dot"></span>
+                    <div>
+                        <p>{activity.activity}</p>
+                        <span className="activity-time">
+                {new Date(activity.timestamp).toLocaleDateString()}
+              </span>
+                    </div>
+                </div>
+            ))}
+        </div>
+      {/*<div className="platform-cards">*/}
+      {/*  <h3>Publications</h3>*/}
+      {/*  {platformCards.map((card, index) => (*/}
+      {/*    <Link key={index} to={card.path} className="platform-card" title={`${card.name} - ${card.description}`}>*/}
+      {/*      <div className="platform-image-container">*/}
+      {/*        <img src={card.image} alt={card.name} className="platform-image" />*/}
+      {/*        <div className="platform-overlay">*/}
+      {/*          <span className="platform-count">{card.count}</span>*/}
+      {/*        </div>*/}
+      {/*      </div>*/}
+      {/*    </Link>*/}
+      {/*  ))}*/}
+      {/*</div>*/}
 
       <div className="quick-actions">
         <h3>Connect</h3>
@@ -61,23 +76,7 @@ const QuickNav = () => {
         </div>
       </div>
 
-      <div className="activity-feed">
-        <h3>Recent Activity</h3>
-        <div className="activity-item">
-          <span className="activity-dot"></span>
-          <div>
-            <p>Published new article on Baeldung</p>
-            <span className="activity-time">2 days ago</span>
-          </div>
-        </div>
-        <div className="activity-item">
-          <span className="activity-dot"></span>
-          <div>
-            <p>Updated portfolio design</p>
-            <span className="activity-time">1 week ago</span>
-          </div>
-        </div>
-      </div>
+
     </aside>
   );
 };
