@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { getPlatformCards } from '../../utils/profileUtils';
 import recentActivities from '../../config/recent-activities.json';
 import './QuickNav.css';
 
 const QuickNav = () => {
+  const location = useLocation();
   const platformCards = getPlatformCards();
 
   const quickActions = [
@@ -19,6 +20,23 @@ const QuickNav = () => {
 
   return (
     <aside className="quick-nav">
+
+        <div className="platform-cards">
+            <h3>Writing for:</h3>
+            {platformCards.map((platform, index) => (
+                <Link
+                    key={platform.name}
+                    to={platform.path}
+                    className={`platform-nav-item ${location.pathname === platform.path ? 'active' : ''}`}
+                >
+                    <div className="platform-nav-container">
+                        <img src={platform.image} alt={platform.name} className="platform-nav-image" />
+                        <span className="platform-name">{platform.name}</span>
+                    </div>
+                </Link>
+            ))}
+        </div>
+
         <div className="activity-feed">
             <h3>Recent Activity</h3>
             {recentActivities.map((activity) => (
@@ -33,49 +51,6 @@ const QuickNav = () => {
                 </div>
             ))}
         </div>
-      {/*<div className="platform-cards">*/}
-      {/*  <h3>Publications</h3>*/}
-      {/*  {platformCards.map((card, index) => (*/}
-      {/*    <Link key={index} to={card.path} className="platform-card" title={`${card.name} - ${card.description}`}>*/}
-      {/*      <div className="platform-image-container">*/}
-      {/*        <img src={card.image} alt={card.name} className="platform-image" />*/}
-      {/*        <div className="platform-overlay">*/}
-      {/*          <span className="platform-count">{card.count}</span>*/}
-      {/*        </div>*/}
-      {/*      </div>*/}
-      {/*    </Link>*/}
-      {/*  ))}*/}
-      {/*</div>*/}
-
-      <div className="quick-actions">
-        <h3>Connect</h3>
-        <div className="action-buttons">
-          {quickActions.map((action, index) => (
-            <a
-              key={index}
-              href={action.url}
-              className="action-btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span>{action.icon}</span>
-              {action.label}
-            </a>
-          ))}
-        </div>
-      </div>
-
-      <div className="tech-stack">
-        <h3>Tech Stack</h3>
-        <div className="tech-tags">
-          {techStack.map((tech, index) => (
-            <span key={index} className="tech-tag">
-              {tech}
-            </span>
-          ))}
-        </div>
-      </div>
-
 
     </aside>
   );

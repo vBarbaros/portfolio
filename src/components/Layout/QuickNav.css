@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: column;
   gap: 1.5625em;
+  height: 80vh;
 }
 
 .quick-nav h3 {
   margin: 0;
   color: #2c3e50;
   font-size: 1.1em;
-  padding: 1.25em 1.25em 0.9375em;
+  padding: 1.25em 0 0.9375em;
 }
 
 .platform-cards {
@@ -16,6 +17,7 @@
   border-radius: 0.5em;
   box-shadow: 0 0.125em 0.625em rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  padding: 0 1em;
 }
 
 .platform-card {
@@ -53,6 +55,48 @@
   color: white;
   font-size: 0.75em;
   font-weight: 600;
+}
+
+.platform-nav-item {
+  display: block;
+  padding: 0;
+  text-decoration: none;
+  color: #2c3e50;
+  border-radius: 0.25em;
+  margin-bottom: 0.5em;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+.platform-nav-item:hover {
+  transform: translateY(-0.125em);
+}
+
+.platform-nav-item.active {
+  box-shadow: 0 0 0 2px #3498db;
+}
+
+.platform-nav-container {
+  position: relative;
+}
+
+.platform-nav-image {
+  width: 100%;
+  height: 4em;
+  display: block;
+  object-fit: cover;
+}
+
+.platform-name {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  font-size: 0.875em;
+  font-weight: 600;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  z-index: 1;
 }
 
 .card-info h4 {

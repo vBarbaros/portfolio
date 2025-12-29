@@ -64,13 +64,15 @@
 }
 
 .skills-section {
+  background: #ffffff;
+  border-radius: 0.5em;
+  box-shadow: 0 0.125em 0.625em rgba(0, 0, 0, 0.1);
+  padding: 1.25em;
   margin-bottom: 1.875em;
-  padding-bottom: 1.5625em;
-  border-bottom: 0.0625em solid #ecf0f1;
 }
 
 .skills-section h3 {
-  margin: 0 0 1.25em;
+  margin: 0 0 0.9375em;
   color: #2c3e50;
   font-size: 1.1em;
 }
@@ -203,6 +205,73 @@
   gap: 0.625em;
   margin-bottom: 0.625em;
   font-size: 0.85em;
+}
+
+.connect-section {
+  background: #ffffff;
+  border-radius: 0.5em;
+  box-shadow: 0 0.125em 0.625em rgba(0, 0, 0, 0.1);
+  padding: 1.25em;
+  margin-bottom: 1.875em;
+}
+
+.connect-section h3,
+.tech-stack h3 {
+  margin: 0 0 0.9375em;
+  color: #2c3e50;
+  font-size: 1.1em;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.625em;
+  padding: 0.625em 0.75em;
+  background: #f8f9fa;
+  border-radius: 0.375em;
+  text-decoration: none;
+  color: #34495e;
+  font-size: 0.9em;
+  transition: all 0.2s ease;
+}
+
+.action-btn:hover {
+  background: #3498db;
+  color: white;
+}
+
+.platform-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.tech-stack {
+  background: #ffffff;
+  border-radius: 0.5em;
+  box-shadow: 0 0.125em 0.625em rgba(0, 0, 0, 0.1);
+  padding: 1.25em;
+  margin-bottom: 1.875em;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.tech-tag {
+  background: #ecf0f1;
+  color: #2c3e50;
+  padding: 0.375em 0.75em;
+  border-radius: 0.9375em;
+  font-size: 0.8em;
+  font-weight: 500;
 }
 
 .contact-item a {
