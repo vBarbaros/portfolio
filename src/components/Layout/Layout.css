@@ -2,14 +2,16 @@
   display: grid;
   grid-template-columns: 15.625em 1fr 17.5em;
   grid-template-areas: "sidebar main quicknav";
-  min-height: 100vh;
+  height: 100vh;
   gap: 1.25em;
   padding: 1.25em;
   background-color: #ecf0f1;
+  overflow: hidden;
 }
 
 .sidebar {
   grid-area: sidebar;
+  overflow: hidden;
 }
 
 .main-content {
@@ -19,10 +21,12 @@
   box-shadow: 0 0.125em 0.625em rgba(0, 0, 0, 0.1);
   padding: 1.875em;
   overflow-y: auto;
+  height: 100%;
 }
 
 .quick-nav {
   grid-area: quicknav;
+  overflow: hidden;
 }
 
 @media (max-width: 1199px) {

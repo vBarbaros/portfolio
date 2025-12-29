@@ -1,0 +1,18 @@
+[
+  {
+    "id": "binary-search-deep-dive",
+    "title": "Binary Search: Beyond the Basics",
+    "datePublished": "2024-05-05",
+    "briefSummary": "Advanced binary search techniques, variations, and real-world applications in algorithm design.",
+    "content": "binary-search-deep-dive.md",
+    "externalLink": null
+  },
+  {
+    "id": "system-design-patterns",
+    "title": "Essential System Design Patterns for Scale",
+    "datePublished": "2024-03-30",
+    "briefSummary": "Key architectural patterns every developer should know for building scalable distributed systems.",
+    "content": null,
+    "externalLink": "https://substack.com/@theanatomyofanalgorithm/system-design-patterns"
+  }
+]

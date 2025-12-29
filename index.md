@@ -4,7 +4,7 @@ layout: default
 
 # Full-Stack Developer & DevOps
 
-Welcome to my portfolio! I am a seasoned Full-Stack Software Developer and DevOps specialist currently working at **Ericsson**, with over 5 years of experience in leading and supporting automation pipeline enhancements and full-stack development. I hold a **Master of Science** (M.Sc.) in Computer Science from **McGill University**, specializing in intelligent systems and machine learning.
+Welcome to my portfolio! I am a seasoned Full-Stack Software Developer and DevOps specialist currently working at **Ericsson**, with over 6 years of experience in leading and supporting automation pipeline enhancements and full-stack development. I hold a **Master of Science** (M.Sc.) in Computer Science from **McGill University**, specializing in intelligent systems and machine learning.
 
 ## Expertise
 

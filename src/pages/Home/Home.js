@@ -1,21 +1,14 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { personalInfo, experience } from '../../data/content';
+import { calculateYearsOfExperience, calculateTotalArticles, calculateCompletedProjects, getFeaturedProjects } from '../../utils/profileUtils';
 import './Home.css';
 
 const Home = () => {
-  const featuredProjects = [
-    {
-      title: 'Spring Boot Microservices',
-      description: 'Scalable microservices architecture with Spring Boot and Docker',
-      tech: ['Java', 'Spring Boot', 'Docker', 'AWS']
-    },
-    {
-      title: 'React Dashboard',
-      description: 'Modern admin dashboard with real-time data visualization',
-      tech: ['React', 'TypeScript', 'D3.js', 'WebSocket']
-    }
-  ];
+  const yearsOfExperience = calculateYearsOfExperience();
+  const totalArticles = calculateTotalArticles();
+  const completedProjects = calculateCompletedProjects();
+  const featuredProjects = getFeaturedProjects();
 
   return (
     <>
@@ -23,23 +16,23 @@ const Home = () => {
         <title>Victor Barbarosh - Full-Stack Developer Portfolio</title>
         <meta name="description" content={personalInfo.description} />
       </Helmet>
-      
+
       <section className="welcome-section">
         <h1>Welcome to My Portfolio</h1>
         <p className="intro-text">{personalInfo.description}</p>
         <p>I hold a {personalInfo.education}, specializing in intelligent systems and machine learning.</p>
-        
+
         <div className="highlights">
           <div className="highlight-item">
-            <span className="highlight-number">5+</span>
+            <span className="highlight-number">{yearsOfExperience}+</span>
             <span className="highlight-label">Years Experience</span>
           </div>
           <div className="highlight-item">
-            <span className="highlight-number">50+</span>
+            <span className="highlight-number">{totalArticles}</span>
             <span className="highlight-label">Articles Published</span>
           </div>
           <div className="highlight-item">
-            <span className="highlight-number">20+</span>
+            <span className="highlight-number">{completedProjects}</span>
             <span className="highlight-label">Projects Completed</span>
           </div>
         </div>
@@ -66,11 +59,11 @@ const Home = () => {
         <h2>Featured Projects</h2>
         <div className="projects-grid">
           {featuredProjects.map((project, index) => (
-            <div key={index} className="project-card">
+            <div key={project.id} className="project-card">
               <h3>{project.title}</h3>
-              <p>{project.description}</p>
+              <p>{project.briefSummary}</p>
               <div className="project-tech">
-                {project.tech.map((tech, techIndex) => (
+                {project.technologies.map((tech, techIndex) => (
                   <span key={techIndex} className="tech-badge">{tech}</span>
                 ))}
               </div>
@@ -79,14 +72,14 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="cta-section">
-        <h2>Let's Work Together</h2>
-        <p>I'm always interested in new opportunities and challenging projects.</p>
-        <div className="cta-buttons">
-          <button className="cta-primary">Get In Touch</button>
-          <button className="cta-secondary">View Resume</button>
-        </div>
-      </section>
+      {/*<section className="cta-section">*/}
+      {/*  <h2>Let's Work Together</h2>*/}
+      {/*  <p>I'm always interested in new opportunities and challenging projects.</p>*/}
+      {/*  <div className="cta-buttons">*/}
+      {/*    <button className="cta-primary">Get In Touch</button>*/}
+      {/*    <button className="cta-secondary">View Resume</button>*/}
+      {/*  </div>*/}
+      {/*</section>*/}
     </>
   );
 };

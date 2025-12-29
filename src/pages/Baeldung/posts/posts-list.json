@@ -1,0 +1,18 @@
+[
+  {
+    "id": "spring-boot-testing-guide",
+    "title": "Complete Guide to Testing in Spring Boot",
+    "datePublished": "2024-03-15",
+    "briefSummary": "Comprehensive guide covering unit testing, integration testing, and test slices in Spring Boot applications.",
+    "content": "spring-boot-testing-guide.md",
+    "externalLink": null
+  },
+  {
+    "id": "java-streams-advanced",
+    "title": "Advanced Java Streams Operations",
+    "datePublished": "2024-02-20",
+    "briefSummary": "Deep dive into advanced Stream API operations including collectors, parallel streams, and performance considerations.",
+    "content": null,
+    "externalLink": "https://www.baeldung.com/java-streams-advanced"
+  }
+]

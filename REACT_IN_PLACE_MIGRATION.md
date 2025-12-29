@@ -391,7 +391,7 @@ cat > src/data/content.js << 'EOF'
 export const personalInfo = {
   name: "Victor Barbarosh",
   title: "Full-Stack Developer & DevOps",
-  description: "Seasoned Full-Stack Software Developer and DevOps specialist at Ericsson with over 5 years of experience",
+  description: "Seasoned Full-Stack Software Developer and DevOps specialist at Ericsson with over 6 years of experience",
   education: "Master of Science (M.Sc.) in Computer Science from McGill University",
   linkedin: "https://www.linkedin.com/in/victor-barbarosh-56a03743",
   github: "https://github.com/vBarbaros"

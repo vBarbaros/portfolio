@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ai-future-development",
+    "title": "The Future of AI in Software Development",
+    "datePublished": "2024-04-10",
+    "briefSummary": "Exploring how artificial intelligence is reshaping the software development landscape and what developers need to know.",
+    "category": "technical",
+    "content": "ai-future-development.md",
+    "externalLink": null
+  },
+  {
+    "id": "microservices-haiku",
+    "title": "Microservices: A Technical Haiku Collection",
+    "datePublished": "2024-01-25",
+    "briefSummary": "Creative technical writing combining poetry and software architecture concepts.",
+    "category": "non-technical",
+    "content": null,
+    "externalLink": "https://medium.com/@geeks.sw.gig/microservices-haiku"
+  }
+]

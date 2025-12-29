@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Medium",
+    "path": "/medium",
+    "color": "#1abc9c",
+    "icon": "✍️",
+    "image": "/portfolio/assets/images/medium.png",
+    "description": "Tech insights & experiences"
+  },
+  {
+    "name": "Substack",
+    "path": "/substack",
+    "color": "#e67e22",
+    "icon": "📰",
+    "image": "/portfolio/assets/images/substack.png",
+    "description": "Newsletter & deep dives"
+  },
+  {
+    "name": "Baeldung",
+    "path": "/baeldung",
+    "color": "#2ecc71",
+    "icon": "📝",
+    "image": "/portfolio/assets/images/spring-boot.png",
+    "description": "Java & Spring tutorials"
+  }
+]
