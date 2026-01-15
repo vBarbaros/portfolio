@@ -43,59 +43,5 @@
     "category": "technical",
     "content": null,
     "externalLink": "https://medium.com/practical-coders-chronicles/why-mitre-matters-in-cybersecurity-ad884cf64ac9"
-  },
-  {
-    "id": "critical-thinking-commentary",
-    "title": "Critical Thinking: A Well-Kept Secret",
-    "datePublished": "2025-08-03",
-    "briefSummary": "A commentary on how critical thinking has never been properly taught in schools and how the rise of generative AI has highlighted this gap.",
-    "category": "non-technical",
-    "content": null,
-    "externalLink": "https://medium.com/@geeks.sw.gig/psssst-hey-here-is-what-i-want-to-share-as-a-very-well-kept-secret-the-critical-thinking-has-5d4a8cce01c3"
-  },
-  {
-    "id": "open-space-office-challenges",
-    "title": "While I definitely agree on this, in some places this is virtually impossible",
-    "datePublished": "2025-05-08",
-    "briefSummary": "A response discussing challenges of maintaining focus in open space offices with mandatory return-to-office policies.",
-    "category": "non-technical",
-    "content": null,
-    "externalLink": "https://medium.com/@geeks.sw.gig/while-i-definitely-agree-on-this-in-some-places-this-is-virtually-impossible-244bf10807f8"
-  },
-  {
-    "id": "python-project-structure",
-    "title": "Python Project Structure Best Practices",
-    "datePublished": "2025-05-08",
-    "briefSummary": "Recommendations for structuring Python projects with emphasis on data and models folders for data science applications.",
-    "category": "technical",
-    "content": null,
-    "externalLink": "https://medium.com/@geeks.sw.gig/right-off-the-bat-id-add-one-more-folder-in-the-root-dir-called-data-nowadays-every-single-452f19ded42f"
-  },
-  {
-    "id": "small-change-big-system",
-    "title": "As the saying says - there is no such thing as a small change in a big system",
-    "datePublished": "2024-04-02",
-    "briefSummary": "A short reflection on the complexity and cascading effects of making changes in large software systems.",
-    "category": "non-technical",
-    "content": null,
-    "externalLink": "https://medium.com/@geeks.sw.gig/as-the-saying-says-there-is-no-such-thing-as-a-small-change-in-a-big-system-9fb2b15a60fa"
-  },
-  {
-    "id": "lines-of-code-commits",
-    "title": "That's right, it's not about lines of code; this is measured in number of commits",
-    "datePublished": "2024-02-29",
-    "briefSummary": "A commentary on measuring developer productivity through commits rather than lines of code written.",
-    "category": "non-technical",
-    "content": null,
-    "externalLink": "https://medium.com/@geeks.sw.gig/thats-right-it-s-not-about-lines-of-code-this-is-measured-in-number-of-commits-actually-f83acd12de5a"
-  },
-  {
-    "id": "applicable-to-any-profession",
-    "title": "While this is a great advice, it's really applicable to any role and any profession",
-    "datePublished": "2025-05-06",
-    "briefSummary": "A response highlighting how certain professional advice transcends specific roles and applies universally across professions.",
-    "category": "non-technical",
-    "content": null,
-    "externalLink": "https://medium.com/@geeks.sw.gig/while-this-is-a-great-advice-its-really-applicable-to-any-role-and-any-profession-out-there-f1ce70ca9998"
   }
 ]
