@@ -23,7 +23,7 @@ const Baeldung = () => {
             <img src="/portfolio/assets/images/spring-boot.png" alt="Baeldung" className="platform-logo" />
             <h1>Baeldung Articles</h1>
           </div>
-          <p className="platform-description">In-depth tutorials on Java Core and Spring Framework</p>
+          <p className="platform-description">In-depth articles on Java Core, Spring Framework, Linux, and Computer Science</p>
         </header>
 
         <div className="posts-grid">

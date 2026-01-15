@@ -9,9 +9,9 @@ const Substack = () => {
     <>
       <Helmet>
         <title>Substack Posts - Victor Barbarosh</title>
-        <meta name="description" content="Data structures, algorithms, and full-stack development insights" />
+        <meta name="description" content="The Cybersecurity Newsletter | Your Monday cybersec intelligence briefing" />
       </Helmet>
-      
+
       <div className="platform-page">
         <Link to="/" className="home-link top">
           <img src="/portfolio/assets/images/victor-barbarosh-profile.png" alt="Home" className="home-icon" />
@@ -23,7 +23,7 @@ const Substack = () => {
             <img src="/portfolio/assets/images/substack.png" alt="Substack" className="platform-logo" />
             <h1>Substack Newsletter</h1>
           </div>
-          <p className="platform-description">Data Structures, Algorithms, and Full-Stack Development</p>
+          <p className="platform-description">The Cybersecurity Newsletter | Your Monday cybersec intelligence briefing</p>
         </header>
 
         <div className="posts-grid">

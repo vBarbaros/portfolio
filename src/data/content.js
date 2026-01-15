@@ -15,8 +15,8 @@ export const personalInfo = {
 export const platforms = {
   baeldung: {
     name: "Baeldung",
-    url: "https://www.baeldung.com/editor/victorbarbarosh",
-    description: "In-depth articles on Java Core and Spring Framework",
+    url: "https://www.baeldung.com/author/victorbarbarosh",
+    description: "In-depth articles on Java Core, Spring Framework, Linux, and Computer Science",
     image: "/assets/images/baeldung.png"
   },
   medium: {
@@ -27,8 +27,8 @@ export const platforms = {
   },
   substack: {
     name: "Substack",
-    url: "https://substack.com/@theanatomyofanalgorithm",
-    description: "Data Structures, Algorithms, and Full-Stack Development",
+    url: "https://thecybersecurity.substack.com/",
+    description: "The Cybersecurity Newsletter | Your Monday cybersec intelligence briefing",
     image: "/assets/images/substack.png"
   }
 };

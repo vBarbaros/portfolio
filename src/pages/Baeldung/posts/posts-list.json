@@ -1,18 +1,66 @@
 [
   {
-    "id": "spring-boot-testing-guide",
-    "title": "Complete Guide to Testing in Spring Boot",
-    "datePublished": "2024-03-15",
-    "briefSummary": "Comprehensive guide covering unit testing, integration testing, and test slices in Spring Boot applications.",
-    "content": "spring-boot-testing-guide.md",
-    "externalLink": null
+    "id": "java-recordbuilder-guide",
+    "title": "A Practical Guide to RecordBuilder in Java",
+    "datePublished": "2025-11-12",
+    "briefSummary": "Learn about the RecordBuilder library to enhance Java records with a builder pattern, bridging the gap between immutability and flexible construction.",
+    "content": null,
+    "externalLink": "https://www.baeldung.com/java-recordbuilder"
   },
   {
-    "id": "java-streams-advanced",
-    "title": "Advanced Java Streams Operations",
-    "datePublished": "2024-02-20",
-    "briefSummary": "Deep dive into advanced Stream API operations including collectors, parallel streams, and performance considerations.",
+    "id": "jsonobject-extract-keys",
+    "title": "Extracting Flat and Nested Keys from a JSONObject",
+    "datePublished": "2025-05-04",
+    "briefSummary": "Learn how to extract all the keys from a JSON object for tasks such as validation, transformation, and data mapping.",
     "content": null,
-    "externalLink": "https://www.baeldung.com/java-streams-advanced"
+    "externalLink": "https://www.baeldung.com/java-jsonobject-extract-keys"
+  },
+  {
+    "id": "nested-loops-to-stream",
+    "title": "How to Convert Nested Loops to Stream in Java",
+    "datePublished": "2025-04-24",
+    "briefSummary": "Shows how to replace nested loops with Java Streams to achieve a more declarative, readable, and efficient data processing style.",
+    "content": null,
+    "externalLink": "https://www.baeldung.com/java-nested-loops-stream-conversion"
+  },
+  {
+    "id": "sorting-alphanumeric-strings-java",
+    "title": "Sorting Alphanumeric Strings in Java",
+    "datePublished": "2025-04-10",
+    "briefSummary": "Explores three approaches to sorting alphanumeric strings in Java, including lexicographic ordering, natural sorting with custom comparators, and mixed case handling.",
+    "content": null,
+    "externalLink": "https://www.baeldung.com/java-sort-alphanumeric-strings"
+  },
+  {
+    "id": "max-difference-java-array",
+    "title": "Find Elements with Max Difference in Java Array",
+    "datePublished": "2024-11-17",
+    "briefSummary": "Presents several techniques to find the maximum difference between any two elements in an integer array in Java, discussing efficiency and edge cases.",
+    "content": null,
+    "externalLink": "https://www.baeldung.com/java-elements-max-difference-array"
+  },
+  {
+    "id": "years-starting-sunday",
+    "title": "Determining All Years Starting on a Sunday Within a Given Year Range",
+    "datePublished": "2024-10-06",
+    "briefSummary": "Shows different ways to compute all years that start on a Sunday within a given range using Java date and time APIs.",
+    "content": null,
+    "externalLink": "https://www.baeldung.com/java-years-starting-sunday-year-range"
+  },
+  {
+    "id": "cron-logrotate-delete-log-files",
+    "title": "Removing Log Files with a Cron Job in Linux",
+    "datePublished": "2025-09-03",
+    "briefSummary": "A short guide on cleaning up old log files using cron and logrotate on Linux to manage disk usage and keep logs tidy.",
+    "content": null,
+    "externalLink": "https://www.baeldung.com/linux/cron-logograte-delete-log-files"
+  },
+  {
+    "id": "cycle-sort-algorithm",
+    "title": "Cycle Sort Algorithm",
+    "datePublished": "2025-04-15",
+    "briefSummary": "Introduces the Cycle Sort algorithm, which sorts an array using the minimum possible number of swaps by rotating elements through their correct positions.",
+    "content": null,
+    "externalLink": "https://www.baeldung.com/cs/cycle-sort-algorithm"
   }
 ]

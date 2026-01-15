@@ -1,20 +1,101 @@
 [
   {
-    "id": "ai-future-development",
-    "title": "The Future of AI in Software Development",
-    "datePublished": "2024-04-10",
-    "briefSummary": "Exploring how artificial intelligence is reshaping the software development landscape and what developers need to know.",
+    "id": "ssl-tls-validation-spring-boot",
+    "title": "Do Not Disable The SSL/TLS Validation from your Spring Boot App, Seriously!",
+    "datePublished": "2024-08-21",
+    "briefSummary": "A comprehensive guide explaining why disabling SSL/TLS validation is dangerous and how the Java Development Kit manages secure HTTPS communication in Spring Boot applications.",
     "category": "technical",
-    "content": "ai-future-development.md",
-    "externalLink": null
+    "content": null,
+    "externalLink": "https://medium.com/@geeks.sw.gig/do-not-disable-the-ssl-tls-validation-from-your-spring-boot-app-seriously-1a212fd109ce"
   },
   {
-    "id": "microservices-haiku",
-    "title": "Microservices: A Technical Haiku Collection",
-    "datePublished": "2024-01-25",
-    "briefSummary": "Creative technical writing combining poetry and software architecture concepts.",
+    "id": "conquering-openai-minigrid",
+    "title": "Conquering OpenAI's Minigrid: A Comprehensive Guide to Mastering GridWorld in Python",
+    "datePublished": "2024-02-28",
+    "briefSummary": "A step-by-step guide to mastering the Minigrid challenge in OpenAI Gym, exploring reinforcement learning concepts with practical Python implementations.",
+    "category": "technical",
+    "content": null,
+    "externalLink": "https://medium.com/practical-coders-chronicles/conquering-openais-minigrid-a-comprehensive-guide-to-mastering-gridworld-in-python-bfe4f2a76c2e"
+  },
+  {
+    "id": "security-drift-000-online-behaviour",
+    "title": "Why Your Online Behaviour Is Not Entirely Yours! — [Security Drift 000]",
+    "datePublished": "2024-02-19",
+    "briefSummary": "First issue of the Security Drifts Series exploring contextual drift in online browsing and how user behavior, preferences, and context change while navigating websites.",
+    "category": "technical",
+    "content": null,
+    "externalLink": "https://medium.com/practical-coders-chronicles/security-drift-000-why-your-online-behaviour-is-not-entirely-yours-e145fa9125f7"
+  },
+  {
+    "id": "pytorch-introduction-day-1",
+    "title": "Leap of Faith in PyTorch: Introduction (Day 1)",
+    "datePublished": "2024-06-24",
+    "briefSummary": "Day 1 of a 29-day PyTorch journey introducing the deep learning framework and tensor basics with examples combining financial, social, and political topics.",
+    "category": "technical",
+    "content": null,
+    "externalLink": "https://medium.com/practical-coders-chronicles/leap-of-faith-in-pytorch-introduction-day-1-ce9047352cf1"
+  },
+  {
+    "id": "mitre-cybersecurity-importance",
+    "title": "Why MITRE Matters in Cybersecurity",
+    "datePublished": "2025-04-19",
+    "briefSummary": "Exploring MITRE's critical role in cybersecurity, including the ATT&CK framework and CVE system, and why recent funding cuts are concerning for digital security.",
+    "category": "technical",
+    "content": null,
+    "externalLink": "https://medium.com/practical-coders-chronicles/why-mitre-matters-in-cybersecurity-ad884cf64ac9"
+  },
+  {
+    "id": "critical-thinking-commentary",
+    "title": "Critical Thinking: A Well-Kept Secret",
+    "datePublished": "2025-08-03",
+    "briefSummary": "A commentary on how critical thinking has never been properly taught in schools and how the rise of generative AI has highlighted this gap.",
     "category": "non-technical",
     "content": null,
-    "externalLink": "https://medium.com/@geeks.sw.gig/microservices-haiku"
+    "externalLink": "https://medium.com/@geeks.sw.gig/psssst-hey-here-is-what-i-want-to-share-as-a-very-well-kept-secret-the-critical-thinking-has-5d4a8cce01c3"
+  },
+  {
+    "id": "open-space-office-challenges",
+    "title": "While I definitely agree on this, in some places this is virtually impossible",
+    "datePublished": "2025-05-08",
+    "briefSummary": "A response discussing challenges of maintaining focus in open space offices with mandatory return-to-office policies.",
+    "category": "non-technical",
+    "content": null,
+    "externalLink": "https://medium.com/@geeks.sw.gig/while-i-definitely-agree-on-this-in-some-places-this-is-virtually-impossible-244bf10807f8"
+  },
+  {
+    "id": "python-project-structure",
+    "title": "Python Project Structure Best Practices",
+    "datePublished": "2025-05-08",
+    "briefSummary": "Recommendations for structuring Python projects with emphasis on data and models folders for data science applications.",
+    "category": "technical",
+    "content": null,
+    "externalLink": "https://medium.com/@geeks.sw.gig/right-off-the-bat-id-add-one-more-folder-in-the-root-dir-called-data-nowadays-every-single-452f19ded42f"
+  },
+  {
+    "id": "small-change-big-system",
+    "title": "As the saying says - there is no such thing as a small change in a big system",
+    "datePublished": "2024-04-02",
+    "briefSummary": "A short reflection on the complexity and cascading effects of making changes in large software systems.",
+    "category": "non-technical",
+    "content": null,
+    "externalLink": "https://medium.com/@geeks.sw.gig/as-the-saying-says-there-is-no-such-thing-as-a-small-change-in-a-big-system-9fb2b15a60fa"
+  },
+  {
+    "id": "lines-of-code-commits",
+    "title": "That's right, it's not about lines of code; this is measured in number of commits",
+    "datePublished": "2024-02-29",
+    "briefSummary": "A commentary on measuring developer productivity through commits rather than lines of code written.",
+    "category": "non-technical",
+    "content": null,
+    "externalLink": "https://medium.com/@geeks.sw.gig/thats-right-it-s-not-about-lines-of-code-this-is-measured-in-number-of-commits-actually-f83acd12de5a"
+  },
+  {
+    "id": "applicable-to-any-profession",
+    "title": "While this is a great advice, it's really applicable to any role and any profession",
+    "datePublished": "2025-05-06",
+    "briefSummary": "A response highlighting how certain professional advice transcends specific roles and applies universally across professions.",
+    "category": "non-technical",
+    "content": null,
+    "externalLink": "https://medium.com/@geeks.sw.gig/while-this-is-a-great-advice-its-really-applicable-to-any-role-and-any-profession-out-there-f1ce70ca9998"
   }
 ]

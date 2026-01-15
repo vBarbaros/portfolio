@@ -1,47 +1,11 @@
 [
   {
-    "id": "microservices-platform",
-    "title": "Enterprise Microservices Platform",
-    "dateCompleted": "2024-06-15",
-    "briefSummary": "Scalable microservices architecture with Spring Boot, Docker, and Kubernetes for enterprise-level applications.",
-    "technologies": ["Spring Boot", "Docker", "Kubernetes", "PostgreSQL", "Redis"],
+    "id": "tomato-timer-extension",
+    "title": "Tomato Timer - Pomodoro Productivity Extension",
+    "dateCompleted": "2026-01-15",
+    "briefSummary": "Productivity extension implementing the Pomodoro Technique with focused 25-minute work intervals, task management, and progress tracking to help users boost focus and time management.",
+    "technologies": ["React", "TypeScript", "HTML", "CSS", "Chrome Extension API"],
     "status": "completed",
     "featured": true
-  },
-  {
-    "id": "ai-code-reviewer",
-    "title": "AI-Powered Code Review Assistant",
-    "dateCompleted": "2024-04-20",
-    "briefSummary": "Machine learning tool that analyzes code quality, suggests improvements, and detects potential bugs.",
-    "technologies": ["Python", "TensorFlow", "FastAPI", "React", "MongoDB"],
-    "status": "completed",
-    "featured": true
-  },
-  {
-    "id": "devops-automation-pipeline",
-    "title": "DevOps Automation Pipeline",
-    "dateCompleted": "2024-02-10",
-    "briefSummary": "Complete CI/CD pipeline with automated testing, deployment, and monitoring for multi-environment setups.",
-    "technologies": ["Jenkins", "Docker", "Terraform", "AWS", "Prometheus"],
-    "status": "completed",
-    "featured": false
-  },
-  {
-    "id": "real-time-analytics-dashboard",
-    "title": "Real-time Analytics Dashboard",
-    "dateCompleted": "2023-11-30",
-    "briefSummary": "Interactive dashboard for real-time data visualization and business intelligence with streaming data processing.",
-    "technologies": ["Angular", "Node.js", "Apache Kafka", "InfluxDB", "Grafana"],
-    "status": "completed",
-    "featured": true
-  },
-  {
-    "id": "blockchain-voting-system",
-    "title": "Blockchain-based Voting System",
-    "dateCompleted": "2023-09-15",
-    "briefSummary": "Secure and transparent voting platform using blockchain technology for tamper-proof elections.",
-    "technologies": ["Solidity", "Web3.js", "React", "Ethereum", "IPFS"],
-    "status": "completed",
-    "featured": false
   }
 ]

@@ -1,18 +1,10 @@
 [
   {
-    "id": "binary-search-deep-dive",
-    "title": "Binary Search: Beyond the Basics",
-    "datePublished": "2024-05-05",
-    "briefSummary": "Advanced binary search techniques, variations, and real-world applications in algorithm design.",
-    "content": "binary-search-deep-dive.md",
-    "externalLink": null
-  },
-  {
-    "id": "system-design-patterns",
-    "title": "Essential System Design Patterns for Scale",
-    "datePublished": "2024-03-30",
-    "briefSummary": "Key architectural patterns every developer should know for building scalable distributed systems.",
+    "id": "application-security-under-siege",
+    "title": "Application Security Under Siege: 2026 CVE Authentication Bypass Wave",
+    "datePublished": "2026-01-12",
+    "briefSummary": "Weekly cybersecurity digest covering critical 2026 CVE vulnerabilities with authentication bypass and code execution patterns, including actionable guardrails and detection queries.",
     "content": null,
-    "externalLink": "https://substack.com/@theanatomyofanalgorithm/system-design-patterns"
+    "externalLink": "https://thecybersecurity.substack.com/p/application-security-under-siege"
   }
 ]
